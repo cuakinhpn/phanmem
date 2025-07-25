@@ -14,6 +14,7 @@ import Kho from "./pages/kho";
 import MaterialGroup from "./pages/MaterialGroup";
 import UnitManagementPage from "./pages/UnitManagement";
 import SummaryPage from "./pages/Summary";
+import UserManagementPage from "./pages/UserManagement";
 import CompanyManagementPage from "./pages/CompanyManagement";
 import CompanyManagement from "./pages/Company";
 
@@ -186,7 +187,7 @@ function AppContent() {
             
             {/* All other routes */}
             <Route path="/basic-data" element={<BasicDataManagement />} />
-            <Route path="/user-management" element={<ModuleContent moduleId="user-management" />} />
+            <Route path="/user-management" element={<UserManagementPage />} />
             <Route path="/customer-management" element={<CustomerManagementPage />} />
             <Route path="/code-registration" element={<ModuleContent moduleId="code-registration" />} />
             <Route path="/account-management" element={<ModuleContent moduleId="account-management" />} />
